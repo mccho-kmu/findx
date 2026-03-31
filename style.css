@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    background: #F5F7Fa;
+    color: #333;
+}
+
+/* 네비게이션 */
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #1E2A38;
+    padding: 15px 30px;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #00C3FF;
+}
+
+/* 전체 레이아웃 */
+.container {
+    max-width: 1024px;
+    margin: 100px auto 30px;
+    padding: 20px;
+}
+
+/* 섹션 */
+.section {
+    margin-bottom: 60px;
+	scroll-margin-top: 80px; /* 네비게이션 높이보다 약간 크게 */
+}
+
+.section h2 {
+    border-left: 5px solid #00A672;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+/* 프로필 */
+.profile {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile img {
+    height: 290px;
+    border-radius: 10px;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-info {
+    margin: 0;
+    font-size: 16px;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    color: #555;
+}
+
+/* 카드 */
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card h2, .card h3 {
+    margin-top: 0;
+}
+
+.card img {
+    width: 100%;   /* 카드 폭에 맞춤 */
+    height: auto;  /* 비율 유지 */
+    display: block; /* 불필요한 여백 제거 */
+}
+
+/* 테이블 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    /* background: #004FA1; */
+	background: #005BAA;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+	text-align: left;	
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* 논문 리스트 */
+.paper-sci {
+    padding: 15px;
+    border-left: 4px solid #F49A39;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+.paper-kci {
+    padding: 15px;
+    border-left: 4px solid #FFD13D;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+.paper-int {
+    padding: 15px;
+    border-left: 4px solid #4B90D3;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+.paper-dom {
+    padding: 15px;
+    border-left: 4px solid #A0D9F6;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+.patent {
+    padding: 15px;
+    border-left: 4px solid #9D9D9D;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+.copyright {
+    padding: 15px;
+    border-left: 4px solid #DBDBDB;
+    margin-bottom: 10px;
+    background: white;
+    border-radius: 5px;
+}
+
+.paper-sci span, .paper-kci span, .paper-int span, .paper-dom span, .patent span, .copyright span {
+    display: block;
+    padding-left: 15px;
+}
+
+/* 강의과목 */
+.course-curr {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	border-left: 4px solid #BCED67;
+	border-radius: 5px;
+    display: flex;
+	gap: 20px;
+}
+
+.course {
+	padding-top: 10px;
+	padding-bottom: 0px;
+	border-left: 4px solid #FFFFFF;
+	border-radius: 5px;
+    display: flex;
+	gap: 20px;
+}
+
+/* 프로젝트 카드 */
+.project-item {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* 이미지 영역 */
+.project-img img {
+    width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* 텍스트 영역 */
+.project-content {
+    flex: 1;
+    text-align: left;
+}
+
+/* 리스트 간격 정리 */
+.project-content ul {
+    margin: 5px 0 0 0;
+    padding-left: 20px;
+}
+
+.project-content li {
+    margin: 3px 0;
+}
+
+/* 제목 간격 */
+.project-content h3 {
+    margin-top: 0;
+}
+
+/* 반응형 */
+@media (max-width: 768px) {
+    .profile {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .system {
+        flex-direction: column;
+    }
+
+    nav {
+        text-align: center;
+    }
+}
+
+/* 드롭다운 */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1E2A38;
+    <!-- min-width: 150px; -->
+    top: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+	white-space: nowrap;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #2F3E50;
+}
+
+/* hover 시 표시 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

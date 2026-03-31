@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FindX - Projects</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="./img/kmu.ico" type="image/x-icon">
+</head>
+
+<body>
+
+<!-- 네비게이션 -->
+<nav>
+    <a href="index.html">Professor</a>
+
+    <div class="dropdown">
+        <a href="career.html">Career</a>
+        <div class="dropdown-content">
+            <a href="career.html#industry">Industry</a>
+            <a href="career.html#teaching">Teaching</a>
+            <a href="career.html#service">Service</a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <a href="publications.html">Publications</a>
+        <div class="dropdown-content">
+            <a href="publications.html#journal">Journal Articles</a>
+            <a href="publications.html#conference">Conference Papers</a>
+            <a href="publications.html#patent">Patents</a>
+            <a href="publications.html#copyright">Copyrights</a>
+        </div>
+    </div>
+
+    <a href="projects.html">Projects</a>
+    <a href="courses.html">Courses</a>
+</nav>
+
+<div class="container">
+
+<!-- 프로젝트 -->
+<section id="project" class="section">
+    <h2>Projects</h2>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_fx_04.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>Aveva Marine to Smart 3D 의장 모델 변환 프로젝트</h3>
+
+			<p>
+			기관: 한화오션<br>
+			기간: 2024.03 - 2025.12<br>
+			역할: 개발, 프로젝트 수행 및 관리
+			</p>
+
+			<ul>
+				<li>개발환경: C#, PML, Aveva Marine, Smart 3D, MSSQL</li>
+				<li>Aveva Marine 기반으로 모델된 FPSO 모델을 Smart 3D 모델로 변환</li>
+				<li>변환 공종: 배관, 장비, 전장, 공조, 구조, 서포트</li>
+				<li>모델 비교: 전 공종</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_fx_03.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>배관 ISO 도면 인식을 통한 3차원 모델 자동 생성 시스템 개발</h3>
+
+			<p>
+			기관: (주)파인드엑스<br>
+			기간: 2025.04<br>
+			역할: 개발 (In-house Program)
+			</p>
+
+			<ul>
+				<li>개발환경: C++, MFC, OpenCV</li>
+				<li>OpenCV 기반의 배관 ISO 도면 인식</li>
+				<li>Aveva Marine 및 Smart 3D 기반의 3차원 배관 모델 생성</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_fx_02.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>RVM to STL 모델 형식 변환 프로그램 개발</h3>
+
+			<p>
+			기관: (주)파인드엑스<br>
+			기간: 2025.02<br>
+			역할: 개발 (In-house Program)
+			</p>
+
+			<ul>
+				<li>개발환경: C++, MFC, OpenGL</li>
+				<li>Aveva Marine의 3D 모델의 중립형식인 RVM을 STL 파일로 변환</li>
+				<li>이기종 CAD 간 모델 변환 및 3차원 모델비교의 핵심 기술</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_fx_01.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>Aveva Marine의 RVM 포맷 Parser 개발</h3>
+
+			<p>
+			기관: (주)파인드엑스<br>
+			기간: 2025.01<br>
+			역할: 개발 (In-house Program)
+			</p>
+
+			<ul>
+				<li>개발환경: C++, MFC, OpenGL</li>
+				<li>Aveva Marine의 3D 모델의 중립형식인 RVM의 Primitive Model 분석</li>
+				<li>OpenGL 기반의 RVM 가시화 프로그램 개발</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_ccl_06.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>이기종 CAD 간 모델 비교 프로그램 개발</h3>
+
+			<p>
+			기관: (주)씨씨엘소프트<br>
+			기간: 2023.03 - 2023.07<br>
+			역할: 개발 (In-house Program)
+			</p>
+
+			<ul>
+				<li>개발환경: C++, OpenGL</li>
+				<li>Aveva Marine과 Smart 3D에서 추출한 중립 포맷을 기반으로 모델 비교</li>
+				<li>Similarity 계산 및 결과 보고서 생성</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_ccl_05.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>LNGC CCS FLATNESS 계산시스템 구축</h3>
+
+			<p>
+			기관: 한화오션<br>
+			기간: 2022.06 - 2022.10<br>
+			역할: 개발, 프로젝트 수행 및 관리
+			</p>
+
+			<ul>
+				<li>개발환경: C++, OpenCASCADE, Access</li>
+				<li>프랑스 GTT 프로그램을 대체할 수 있는 In-house 프로그램 개발</li>
+				<li>탱크를 구성하는 10개의 벽(Wall)에 배열되는 단열박스의 편평도 계산</li>
+				<li>1000개 이상의 설계변수와 제약조건을 만족시키기 위한 최적화 알고리즘 개발</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_ccl_04.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>DID 기반 데이터 동기화 모듈 개발<br>공조기 상태 데이터 수집 및 제어 모듈 개발</h3>
+
+			<p>
+			기관: 건양대학교<br>
+			기간: 2022.01 - 2022.07<br>
+			역할: 개발, 프로젝트 수행 및 관리
+			</p>
+
+			<ul>
+				<li>개발환경: C#, TCP/IP 통신, PLC</li>
+				<li>DID 기기와의 실시간 공유</li>
+				<li>IoT 장비에서 수집된 공기질 데이터의 효율적 가시화</li>
+				<li>공조기 상태 데이터 수집</li>
+				<li>빅데이터 분석을 기반으로 한 공조기 자동 제어</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_ccl_03.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>LNG-NO96 CCS 견적/배치 시스템 고도화</h3>
+
+			<p>
+			기관: 한화오션<br>
+			기간: 2021.04 - 2021.08<br>
+			역할: 개발, 프로젝트 수행 및 관리
+			</p>
+
+			<ul>
+				<li>개발환경: C++, OpenCASCADE, Access</li>
+				<li>새로운 타입의 박스 구성 및 네트워크 기반의 작업 안정화</li>
+				<li>CCS 배치 정보를 DXF 양식으로 생성, CCS 물량 산출 시스템 고도화</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_ccl_02.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>전사 안벽계류 풍속 안내시스템 구축</h3>
+
+			<p>
+			기관: 한화오션<br>
+			기간: 2019.10 - 2019.12<br>
+			역할: 개발, 프로젝트 수행 및 관리
+			</p>
+
+			<ul>
+				<li>개발환경: C#, Oracle DB</li>
+				<li>GIS 기도 기반 안벽 계류 호선 현황 표시</li>
+				<li>호선별 안벽 계류 해석 정보 및 호선별 세부 정보 가시화</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_ccl_01.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>심볼기반의 이미지 형식 엔지니어링 도면의 설계정보 인식을 위한 딥러닝용 학습데이터 생성기술</h3>
+
+			<p>
+			기관: 중소벤처기업부 (첫걸음 과제)<br>
+			기간: 2018.12 - 2019.11<br>
+			역할: 주관기관 책임연구원
+			</p>
+
+			<ul>
+				<li>개발환경: C++, SPPID, MSSQL</li>
+				<li>이미지 기반의 P&ID 도면에서 딥러닝용 학습데이터 추출 기술 개발</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_ho_02.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>엔지니어링 데이터 자동 입력 프로그램 개발</h3>
+
+			<p>
+			기관: 한화오션<br>
+			개발: 2016.11<br>
+			역할: 기획 및 개발 (In-house Program)
+			</p>
+
+			<ul>
+				<li>개발환경: C#, SPPID, MSSQL</li>
+				<li>SPPID 환경에서 수기 입력해야하는 엔지니어링 데이터를 자동하기 위한 프로그램 개발</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_ho_01.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>AM to S3D 모델 자동 변환 시스템 개발</h3>
+
+			<p>
+			기관: 한화오션<br>
+			개발: 2013.10<br>
+			역할: 기획 및 개발 (In-house Program) 
+			</p>
+
+			<ul>
+				<li>개발환경: C#, PML, AVEVA Marine, Smart 3D</li>
+				<li>Aveva Marine의 3D 모델을 Smart 3D의 3D 모델로 자동 변환하는 시스템 개발</li>
+				<li>형상정보뿐만 아니라 속성정보(엔지니어링 데이터)도 함께 생성함</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_tis_06.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>MPI 기반의 병렬분산형 설계 지원 시스템 개발</h3>
+
+			<p>
+			기관: Tsuneishi Shipbuilding Co., Ltd.<br>
+			개발: 2012.02<br>
+			역할: 기획 및 개발 (In-house Program)
+			</p>
+
+			<ul>
+				<li>개발환경: C++, MFC, MPI, EMC Server</li>
+				<li>MPI를 활용한 계산 가속화 프레임 개발</li>
+				<li>병렬분산 선체 중량 최적화 시스템 개발</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_tis_05.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>Fuzzy Inference와 Simulated Annealing 기법을 활용한 PSO 기반의 최적화 기법 개발</h3>
+
+			<p>
+			기관: Tsuneishi Shipbuilding Co., Ltd.<br>
+			개발: 2012.02<br>
+			역할: 기획 및 개발 (In-house Program)
+			</p>
+
+			<ul>
+				<li>개발환경: C++, MFC</li>
+				<li>퍼지 추론과 담금질 기법을 활용한 PSO 기법의 효율성 극대화</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_tis_04.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>벌크 캐리어 중량 최적화 시스템 개발</h3>
+
+			<p>
+			기관: Tsuneishi Shipbuilding Co., Ltd.<br>
+			개발: 2012.01<br>
+			역할: 기획 및 개발 (In-house Program)
+			</p>
+
+			<ul>
+				<li>개발환경: C++, MFC, CSR</li>
+				<li>IACS CSR를 기반으로 한 선체 중앙 단면 최적화 시스템 개발</li>
+				<li>생산비 절감를 위한 선체 중량 최소화</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_tis_03.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>OpenFOAM 기반의 CFD 해석 자동화 솔루션 개발</h3>
+
+			<p>
+			기관: Tsuneishi Shipbuilding Co., Ltd.<br>
+			개발: 2011.01<br>
+			역할: 기획 및 개발 (In-house Program)
+			</p>
+
+			<ul>
+				<li>개발환경: CentOS, C++, OpenFOAM</li>
+				<li>컨테이너선의 적재조건 및 다양한 입사각에서의 항력계산 자동화</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_tis_02.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>인공지능 기반의 컨테이너선 선수부 구조물 형상 최적화 프로그램 개발</h3>
+
+			<p>
+			기관: Tsuneishi Shipbuilding Co., Ltd.<br>
+			개발: 2010.12<br>
+			역할: 기획 및 개발 (In-house Program)
+			</p>
+
+			<ul>
+				<li>개발환경: C++, OpenFOAM</li>
+				<li>사용환경: 컨테이너선의 Break Water 구조물 형상 최적화</li>
+				<li>PSO + BPNN + CFD 기법을 활용한 형상 최적화</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_tis_01.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>무요소 기반의 해석 프로그램 개발</h3>
+
+			<p>
+			기관: Tsuneishi Shipbuilding Co., Ltd.<br>
+			개발: 2008.12<br>
+			역할: 기획 및 개발 (In-house Program)
+			</p>
+
+			<ul>
+				<li>개발환경: C++, Techplot</li>
+				<li>사용환경: 복잡한 경계조건을 갖는 멤브레인 구조물 해석</li>
+				<li>Fast Moving Least Square Reproducing Kernel 기법 기반의 무요소법</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_ksu_03.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>병렬분산 기반의 탄성해석 프로그램 개발</h3>
+
+			<p>
+			기관: Kyushu University<br>
+			기간: 박사과정 <br>
+			역할: 연구개발
+			</p>
+
+			<ul>
+				<li>개발환경: MFC, MPI, OpenGL</li>
+				<li>적용요소: 2차원(QUAD4, QUAD8), 3차원(HEXA8)</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_ksu_02.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>유한차분법 기반의 유체해석 프로그램 개발</h3>
+
+			<p>
+			기관: Kyushu University<br>
+			기간: 박사과정 <br>
+			역할: 연구개발
+			</p>
+
+			<ul>
+				<li>개발환경: MFC</li>
+				<li>사용환경: 유체해석(2차원)</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_ksu_01.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>유한요소법 기반의 트러스 구조해석 프로그램 개발</h3>
+
+			<p>
+			기관: Kyushu University<br>
+			기간: 박사과정 <br>
+			역할: 연구개발
+			</p>
+
+			<ul>
+				<li>개발환경: MFC, NASTRAN</li>
+				<li>적용요소: 2차원 (MSC. NASTRAN의 결과 비교 검증)</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_meca_01.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>화물 적하역 또는 항해 중의 복원성 판정 및 종강도 해석 프로그램 개발</h3>
+
+			<p>
+			기관: (주)메카정보통신<br>
+			기간: 2002.04 - 2002.12<br>
+			역할: 연구개발 (In-house Program)
+			</p>
+
+			<ul>
+				<li>개발환경: Delphi, IMO Regulations A.749</li>
+				<li>화물의 적재상태에 따른 선체의 종강도 계산</li>
+				<li>IMO Regulations A.749에 의거한 Intact Stability 및 Damage Stability 계산</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_csu_02.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>근해 저인망류어업의 적정규모 산정</h3>
+
+			<p>
+			기관: 조선대학교<br>
+			기간: 석사과정<br>
+			역할: 연구개발
+			</p>
+
+			<ul>
+				<li>개발환경: MFC, 어선세력자료(제공: 해양수산개발원, 수산과학원)</li>
+				<li>경제성과 안정성을 만족할 수 있는 어선의 적정규모 및 기본제원의 산정 프로그램</li>
+				<li>MRR(Mean Relative Ratio)과 Relative MRR를 바탕으로 경제성을 고려한 적정규모 산정 알고리즘 및 프로그램 개발</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="card project-item">
+		<div class="project-img">
+			<img src="./img/projects/proj_csu_01.png">
+		</div>
+
+		<div class="project-content">
+			<br>
+			<h3>연근해 어업 어선의 경제적 기관마력설정에 관한 연구</h3>
+
+			<p>
+			기관: 조선대학교<br>
+			기간: 석사과정<br>
+			역할: 연구개발
+			</p>
+
+			<ul>
+				<li>개발환경: MFC</li>
+				<li>경제적 기관마력을 설정하기 위한 알고리즘 및 프로그램 개발</li>
+			</ul>
+		</div>
+	</div>
+
+</section>
+
+</div> <!-- container -->
+
+</body>
+</html>
