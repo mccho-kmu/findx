@@ -169,7 +169,7 @@ li {
 }
 
 /* 강의과목 */
-.course-curr {
+.course-current {
 	padding-top: 10px;
 	padding-bottom: 0px;
 	border-left: 4px solid #BCED67;
@@ -178,10 +178,10 @@ li {
 	gap: 20px;
 }
 
-.course {
+.course-previous {
 	padding-top: 10px;
 	padding-bottom: 0px;
-	border-left: 4px solid #FFFFFF;
+	border-left: 4px solid #DBDBDB;
 	border-radius: 5px;
     display: flex;
 	gap: 20px;
